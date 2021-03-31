@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Cycle_Safe.CrimeReport"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cycle_Safe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF45A860">
+        <TextBlock x:Name="Report_Text" HorizontalAlignment="Center" Margin="60,2,58,0" TextWrapping="Wrap" Text="Crime Report" VerticalAlignment="Top" FontSize="66.667" FontFamily="/Assets/Fonts/AmaticSC-Bold.ttf#Amatic SC" Foreground="White" Height="75" Width="242" />
+        <Image x:Name="image" HorizontalAlignment="Left" Height="210" Margin="60,210,0,0" VerticalAlignment="Top" Width="242" Source="report.jpg" />
+
+    </Grid>
+
+</Page>
